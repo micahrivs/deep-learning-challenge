@@ -38,6 +38,9 @@ src/: Source code for data preprocessing, model construction, and evaluation.
 requirements.txt: List of required Python packages for easy setup.
 README.md: This file, providing an overview of the project.
 
+## Summary
+ I discovered that the common assumption that increasing the number of layers and epochs leads to higher accuracy rates is not always valid. Through careful experimentation and analysis, I found that there exists a point of diminishing returns where excessive layers and epochs can actually hinder accuracy. This highlights the importance of a balanced approach to model complexity and training duration, taking into consideration factors like dataset size, architecture design, and regularization techniques. This new perspective challenges the conventional belief and emphasizes the need for a more strategic and nuanced approach to optimizing neural network accuracy.
+
 ## Contributing
 We welcome contributions to improve the project! If you have any suggestions, enhancements, or bug fixes, please feel free to submit a pull request.
 
